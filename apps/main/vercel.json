@@ -2,11 +2,11 @@
     "rewrites": [
         {
             "source": "/docs/",
-            "destination": "https://my-turborepo-docs-lyart.vercel.app/docs/"
+            "destination": "https://my-turborepo-docs-lyart.vercel.app/"
         },
         {
             "source": "/docs/:match*",
-            "destination": "https://my-turborepo-docs-lyart.vercel.app/docs/:match*"
+            "destination": "https://my-turborepo-docs-lyart.vercel.app/:match*"
         },
         {
             "source": "/",
