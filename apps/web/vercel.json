@@ -3,10 +3,6 @@
         {
             "source": "/docs/*",
             "destination": "https://my-turborepo-docs-lyart.vercel.app/:match*"
-        },
-        {
-            "source": "/:match*",
-            "destination": "https://my-turborepo-web-blush.vercel.app/:match*"
         }
     ]
 }
