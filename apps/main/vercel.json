@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/docs/",
+            "destination": "https://my-turborepo-docs-lyart.vercel.app/docs/"
+        },
+        {
+            "source": "/docs/:match*",
+            "destination": "https://my-turborepo-docs-lyart.vercel.app/docs/:match*"
+        },
+        {
+            "source": "/",
+            "destination": "https://my-turborepo-web-blush.vercel.app/"
+        },
+        {
+            "source": "/docs/:match*",
+            "destination": "https://my-turborepo-web-blush.vercel.app/:match*"
+        }
+    ]
+}
