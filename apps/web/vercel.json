@@ -1,7 +1,7 @@
 {
     "rewrites": [
         {
-            "source": "/docs/*",
+            "source": "/docs/:match*",
             "destination": "https://my-turborepo-docs-lyart.vercel.app/:match*"
         }
     ]
