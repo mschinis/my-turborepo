@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/docs/", 
-            "destination": "https://my-turborepo-docs-lyart.vercel.app/"
+            "destination": "https://my-turborepo-docs-lyart.vercel.app/docs/"
         },
         {
             "source": "/docs/:match*",
