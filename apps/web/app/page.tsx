@@ -16,7 +16,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Welcome to the web
+            Welcome to the web!
           </li>
         </ol>
 
