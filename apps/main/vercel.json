@@ -13,7 +13,7 @@
             "destination": "https://my-turborepo-web-blush.vercel.app/"
         },
         {
-            "source": "/docs/:match*",
+            "source": "/:match*",
             "destination": "https://my-turborepo-web-blush.vercel.app/:match*"
         }
     ]
